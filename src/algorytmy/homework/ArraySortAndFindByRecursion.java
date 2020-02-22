@@ -1,3 +1,4 @@
+//not finnished yet!
 package algorytmy.homework;
 
 import java.util.Arrays;
