@@ -2,12 +2,14 @@ package algorytmy;
 
 import java.util.Scanner;
 
-public class Euklides {
+public class EuklidesSubstracting {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
+        int a = 378;//scanner.nextInt();
+        int b = 214;// scanner.nextInt();
+        int count = 0;
         while (a != b) {
+            count++;
             if (a > b) {
                 a = a - b;
             } else {
@@ -15,5 +17,6 @@ public class Euklides {
             }
         }
         System.out.println(a);
+        System.out.println(count);
     }
 }
