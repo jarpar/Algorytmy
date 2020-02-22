@@ -9,9 +9,11 @@ public class Sum {
         int n;
         while (scanner.hasNextInt()) {
             n = scanner.nextInt();
-            if (n == 0) {
+            if (n != 0) {
+                a += n;
+            } else {
                 break;
-            } else a += n;
+            }
         }
         System.out.println(a);
     }
