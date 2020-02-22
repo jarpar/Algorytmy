@@ -1,6 +1,6 @@
 package algorytmy.homework;
 
-public class TabReverseRecursion {
+public class ArrayReverseByRecursion {
     private static int[] tab = new int[]{1, 2, 3, 4, 5};
 
     public static void main(String[] args) {
