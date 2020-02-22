@@ -1,31 +1,13 @@
 package algorytmy.homework;
 
-import java.util.Scanner;
-
 public class TabReverseRecursion {
     private static int[] tab = new int[]{1, 2, 3, 4, 5};
 
     public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//
-//        System.out.println("Enter array length:");
-//        int arrayLength = scanner.nextInt();
-//        int array[] = new int[arrayLength];
-//
-//        System.out.println("Enter values:");
-//        for (int i = 0; i < array.length; i++) {
-//            array[i] = scanner.nextInt();
-//        }
-//        tab = array.clone();
-//        reverse(array);
-//        for (int i : array) {
-//            System.out.print(i);
-//        }
 
         for (int n : tab
         ) {
             System.out.print(n + " ");
-
         }
 
         System.out.println("\nReversed:");
@@ -33,9 +15,7 @@ public class TabReverseRecursion {
         for (int n : reverse(tab)
         ) {
             System.out.print(n + " ");
-
         }
-
     }
 
     private static int n = 0;
