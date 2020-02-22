@@ -9,7 +9,19 @@ public class ArraySortAndFindByRecursion {
         Arrays.sort(tab);
     }
 
-    static int sortTab(int[] tab) {
-        return 0;
+    static int sortTab(int[] tab, int find) {
+        int tempFind = 0;
+        int place = 0;
+        if (tempFind == find) {
+            return place;
+        }
+        if (find == tab[tab.length / 2]) {
+            return tab.length / 2;
+        } else if (find > tab[tab.length / 2]) {
+            return place = tab.length / 2;
+        } else if (find > tab[tab.length / 2]) {
+            return place = tab.length / 2;
+        }
+        return sortTab(tab, find);
     }
 }
