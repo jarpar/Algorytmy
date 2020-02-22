@@ -1,6 +1,6 @@
 package algorytmy;
 
-public class Dodawanie {
+public class Rekurencja {
     public static void main(String[] args) {
         System.out.println(dodaj(4));
         System.out.println(dodajRek(4));
