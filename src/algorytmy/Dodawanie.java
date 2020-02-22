@@ -2,8 +2,19 @@ package algorytmy;
 
 public class Dodawanie {
     public static void main(String[] args) {
+        System.out.println(dodaj(4));
         System.out.println(dodajRek(4));
         System.out.println(silniaRek(4));
+    }
+
+    private static int dodaj(int liczba) {
+        int sum = 0;
+        int i = 0;
+        while (i <= liczba) {
+            sum += i;
+            i++;
+        }
+        return sum;
     }
 
     private static int dodajRek(int liczba) {
