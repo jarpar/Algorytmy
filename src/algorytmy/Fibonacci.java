@@ -5,7 +5,6 @@ public class Fibonacci {
         for (int i = 0; i <= 19; i++) {
             System.out.println(mathFibo(i));
         }
-
     }
 
     static int mathFibo(int n) {
