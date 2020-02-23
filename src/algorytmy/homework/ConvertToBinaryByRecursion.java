@@ -1,4 +1,5 @@
-/*4. Napisz funkcję, która otrzymując liczbę całkowitą dodatnią, wypisze jej reprezentację dwójkową.
+/*
+4. Napisz funkcję, która otrzymując liczbę całkowitą dodatnią, wypisze jej reprezentację dwójkową.
 Należy wykorzystać algorytm dzielenia przez podstawę systemu
 
             Przykładowo zamieńmy liczbę 13 na jej postać binarną
@@ -7,7 +8,6 @@ Należy wykorzystać algorytm dzielenia przez podstawę systemu
             6 : 2 = 3 + 0
             3 : 2 = 1 + 1
             1 : 2 = 0 + 1
-
 */
 
 package algorytmy.homework;

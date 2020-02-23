@@ -29,7 +29,8 @@ package algorytmy.homework;
             3 : 2 = 1 + 1
             1 : 2 = 0 + 1
 
-    5. Napisz program obliczający silnię bez użycia rekurencji
+    5. Factorial
+    Napisz program obliczający silnię bez użycia rekurencji
 
     6. Napisz program rekurencyjny obliczający sumę kolejnych liczb naturalnych
 

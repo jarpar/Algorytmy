@@ -1,4 +1,5 @@
-/*2. ArraySortAndFindByRecursion
+/*
+2. ArraySortAndFindByRecursion
         Powróćmy do problemu poszukiwania pewnej zadanej liczby x w tablicy, tym razem jednak posortowanej od wartości
         minimalnych do maksymalnych. Metoda poszukiwania, bardzo znana i efektywna (tzw. przeszukiwanie binarne),
         polega na poniższej obserwacji
