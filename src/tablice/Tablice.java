@@ -11,14 +11,15 @@ public class Tablice {
             System.out.print(f + " ");
         }
 
-        revVals(theVals);
         System.out.println("\nOdwrócona tablica to:");
-        for (float f : theVals
+        for (float f : revVals(theVals)
         ) {
             System.out.print(f + " ");
         }
+
         System.out.println("\nSuma zmiennych tablicy:");
         System.out.print(sumVals(theVals));
+
         System.out.println("\nŚrednia tablicy:");
         System.out.println(meanVals(theVals));
     }
