@@ -15,10 +15,9 @@ public class BubbleSort {
         for (int i = 0; i < tab.length; i++) {
             for (int j = 1; j < tab.length - i; j++) {
                 if (tab[j - 1] > tab[j]) {
-                    TabHelper.swap(tab);
-//                    temp = tab[j];
-//                    tab[j] = tab[j - 1];
-//                    tab[j - 1] = temp;
+                    temp = tab[j];
+                    tab[j] = tab[j - 1];
+                    tab[j - 1] = temp;
                 }
             }
         }
