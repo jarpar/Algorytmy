@@ -6,7 +6,7 @@ public class WydawanieReszty {
         wydaj(259);
     }
 
-    private static int[] nominaly = new int[]{100, 50, 20, 10, 5, 2, 1};
+    private static int[] nominaly = new int[]{500, 200, 100, 50, 20, 10, 5, 2, 1};
 
     private static void wydaj(int kwota) {
         for (int i = 0; i < nominaly.length; i++) {
