@@ -1,14 +1,6 @@
 package tablice;
 
-import java.util.Arrays;
-
 public class BubbleSort {
-    //static int[] tab = new int[]{3, 5, 7, 2, 1};
-
-    public static void main(String[] args) {
-        int[] tab = new int[]{3, 5, 7, 2, 3, 4, 56, 3};
-        System.out.println(Arrays.toString(sort(tab)));
-    }
 
     static int[] sort(int[] tab) {
         int temp;

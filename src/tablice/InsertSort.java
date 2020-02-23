@@ -1,8 +1,6 @@
 package tablice;
 
-import java.util.Arrays;
-
-public class TabHelper {
+public class InsertSort {
     public static int[] swap(int[] tab) {
         int buff;
 
@@ -16,10 +14,5 @@ public class TabHelper {
             }
         }
         return tab;
-    }
-
-    public static void main(String[] args) {
-        int[] tab = new int[]{3, 2, 5, 2, 1, 7, 8, 9, 11, 1, 3, 2, 5, 4};
-        System.out.println(Arrays.toString(swap(tab)));
     }
 }
