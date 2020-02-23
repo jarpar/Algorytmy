@@ -11,7 +11,7 @@ public class ArraySortAndFindByRecursion {
         for (int i : tab) {
             System.out.print(i + " ");
         }
-        System.out.println("\n" + search(tab, 5));
+        System.out.println("\n" + search(tab, 6));
     }
 
     private static int search(int[] tab, int searchNum) {
@@ -19,7 +19,7 @@ public class ArraySortAndFindByRecursion {
         int right = tab.length - 1;
 
         while (left <= right) {
-            int srodek = (left + right / 2);
+            int srodek = (left + right) / 2;
 
             if (tab[srodek] == searchNum) {
                 return srodek;
