@@ -19,24 +19,36 @@ public class ConvertToBinaryByRecursion {
 
     public static void main(String[] args) {
 
-        convert(13);
-        System.out.println(binary);
+        //convert(13);
+        System.out.println(convert(13));
+        binary.clear();
+        System.out.println(convert(23));
+        binary.clear();
+
+        System.out.println(convert(100));
+        binary.clear();
+
+        System.out.println(convert(0));
+        binary.clear();
+
+        System.out.println(convert(1));
+        binary.clear();
+
     }
 
-    public static ArrayList<Integer> binary = new ArrayList<Integer>();
+    private static ArrayList<Integer> binary = new ArrayList<Integer>();
 
-    public static ArrayList convert(int val) {
-        if (val > 0) {
-            if (val % 2 == 0) {
-                binary.add(0);
-                return convert(val / 2);
-            }
-            if (val % 2 == 1) {
-                binary.add(1);
-                return convert(val / 2);
-            }
+    public static ArrayList<Integer> convert(int val) {
+        if (val == 0) {
+            binary.add(0);
+            Collections.reverse(binary);
+        } else if (val % 2 == 0) {
+            binary.add(0);
+            return convert(val / 2);
+        } else if (val % 2 == 1) {
+            binary.add(1);
+            return convert(val / 2);
         }
-        Collections.reverse(binary);
         return binary;
     }
 }

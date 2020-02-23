@@ -18,7 +18,8 @@ package algorytmy.homework;
     3. PowerByRecursion
     Napisz funkcję potęgowania z użyciem rekurencji
 
-    4. Napisz funkcję, która otrzymując liczbę całkowitą dodatnią, wypisze jej reprezentację dwójkową. Należy
+    4. ConvertToBinaryByRecursion
+    Napisz funkcję, która otrzymując liczbę całkowitą dodatnią, wypisze jej reprezentację dwójkową. Należy
     wykorzystać algorytm dzielenia przez podstawę systemu
 
             Przykładowo zamieńmy liczbę 13 na jej postać binarną
