@@ -13,27 +13,30 @@ Należy wykorzystać algorytm dzielenia przez podstawę systemu
 package algorytmy.homework;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 
 public class ConvertToBinaryByRecursion {
 
     public static void main(String[] args) {
-        Arrays.toString(convert(13).toArray());
+
+        convert(13);
+        System.out.println(binary.toString());
     }
 
     public static ArrayList<Integer> binary = new ArrayList<Integer>();
 
     public static ArrayList convert(int val) {
-        while (val > 0) {
+        if (val > 0) {
             if (val % 2 == 0) {
-                binary.add(1);
-                return convert((val / 2));
+                binary.add(0);
+                return convert(val / 2);
             }
             if (val % 2 == 1) {
-                binary.add(0);
-                return convert((val / 2));
+                binary.add(1);
+                return convert(val / 2);
             }
         }
+        Collections.reverse(binary);
         return binary;
     }
 }
