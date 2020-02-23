@@ -22,7 +22,7 @@ public class Factorial {
     }
 }
 /*
-/usr/lib/jvm/default-java/bin/java -javaagent:/snap/intellij-idea-community/208/lib/idea_rt.jar=37107:/snap/intellij-idea-community/208/bin -Dfile.encoding=UTF-8 -classpath /home/user/IdeaProjects/Algorytmy/out/production/Algorytmy algorytmy.homework.Factorial
+/usr/lib/jvm/default-java/bin/java
 Factorial 0! = 1
 Factorial 1! = 1
 Factorial 2! = 2
