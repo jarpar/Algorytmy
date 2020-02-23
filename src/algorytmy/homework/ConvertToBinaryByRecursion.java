@@ -20,7 +20,7 @@ public class ConvertToBinaryByRecursion {
     public static void main(String[] args) {
 
         convert(13);
-        System.out.println(binary.toString());
+        System.out.println(binary);
     }
 
     public static ArrayList<Integer> binary = new ArrayList<Integer>();
