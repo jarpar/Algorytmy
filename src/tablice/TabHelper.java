@@ -3,7 +3,7 @@ package tablice;
 import java.util.Arrays;
 
 public class TabHelper {
-    static int[] swap(int[] tab) {
+    public static int[] swap(int[] tab) {
         int buff;
 
         for (int i = 1; i < tab.length; i++) {
