@@ -1,4 +1,4 @@
-package algorytmy;
+package tablice;
 
 public class WydawanieReszty {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class WydawanieReszty {
     }
 
     private static int[] nominaly = new int[]{500, 200, 100, 50, 20, 10, 5, 2, 1};
+    //private static int[] nominaly = new int[]{6, 5, 1};
 
     private static void wydaj(int kwota) {
         for (int i = 0; i < nominaly.length; i++) {
