@@ -1,3 +1,14 @@
+/*2. ArraySortAndFindByRecursion
+        Powróćmy do problemu poszukiwania pewnej zadanej liczby x w tablicy, tym razem jednak posortowanej od wartości
+        minimalnych do maksymalnych. Metoda poszukiwania, bardzo znana i efektywna (tzw. przeszukiwanie binarne),
+        polega na poniższej obserwacji
+        Sprawdź środkowy element tablicy o rozmiarze
+        Jeśli x = t[n/2] to element x został znaleziony
+        Jeśli x < t[n/2] to element x być może znajduje się w lewej połowie tablicy – przeanalizuj ją
+        Jeśli x > t[n/2] to element x być może znajduje się w prawej połowie tablicy – przeanalizuj ją
+        Zadanie polega na napisaniu rekurencyjnej funkcji realizującej powyższy algorytm
+ */
+
 package algorytmy.homework;
 
 import java.util.Arrays;

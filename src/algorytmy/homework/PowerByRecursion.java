@@ -1,3 +1,8 @@
+/*
+3. PowerByRecursion
+        Napisz funkcję potęgowania z użyciem rekurencji
+*/
+
 package algorytmy.homework;
 
 public class PowerByRecursion {
