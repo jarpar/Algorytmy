@@ -18,14 +18,8 @@ import java.util.Collections;
 public class ConvertToBinaryByRecursion {
 
     public static void main(String[] args) {
-
         //convert(13);
         System.out.println(convert(13));
-        binary.clear();
-        System.out.println(convert(23));
-        binary.clear();
-
-        System.out.println(convert(100));
         binary.clear();
 
         System.out.println(convert(0));
@@ -34,20 +28,31 @@ public class ConvertToBinaryByRecursion {
         System.out.println(convert(1));
         binary.clear();
 
+        System.out.println(convert(2));
+        binary.clear();
+
+        System.out.println(convert(4));
+        binary.clear();
+
+        System.out.println(convert(8));
+
     }
 
     private static ArrayList<Integer> binary = new ArrayList<Integer>();
 
     public static ArrayList<Integer> convert(int val) {
-        if (val == 0) {
-            binary.add(0);
-            Collections.reverse(binary);
-        } else if (val % 2 == 0) {
+
+        if (val > 0 && val % 2 == 0) {
             binary.add(0);
             return convert(val / 2);
         } else if (val % 2 == 1) {
             binary.add(1);
             return convert(val / 2);
+        }
+        if (binary.isEmpty()) {
+            binary.add(0);
+        } else {
+            Collections.reverse(binary);
         }
         return binary;
     }
