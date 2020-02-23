@@ -38,7 +38,7 @@ public class ConvertToBinaryByRecursion {
 
     }
 
-    private static ArrayList<Integer> binary = new ArrayList<Integer>();
+    private static ArrayList<Integer> binary = new ArrayList<>();
 
     public static ArrayList<Integer> convert(int val) {
 
@@ -57,3 +57,15 @@ public class ConvertToBinaryByRecursion {
         return binary;
     }
 }
+
+/*
+/usr/lib/jvm/default-java/bin/java
+[1, 1, 0, 1]
+[0]
+[1]
+[1, 0]
+[1, 0, 0]
+[1, 0, 0, 0]
+
+Process finished with exit code 0
+ */

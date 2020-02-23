@@ -45,3 +45,10 @@ public class ArraySortAndFindByRecursion {
         return -1;
     }
 }
+/*
+/usr/lib/jvm/default-java/bin/java
+1 2 3 4 5 6 7 8 9
+5
+
+Process finished with exit code 0
+ */

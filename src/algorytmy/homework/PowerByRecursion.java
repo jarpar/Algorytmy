@@ -17,3 +17,9 @@ public class PowerByRecursion {
         return (a * pow(a, n - 1));
     }
 }
+/*
+/usr/lib/jvm/default-java/bin/java
+8
+
+Process finished with exit code 0
+ */
