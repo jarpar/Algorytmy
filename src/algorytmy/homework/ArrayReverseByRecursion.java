@@ -1,8 +1,9 @@
 /*
 1. ArrayReverseByRecursion
         Załóżmy, że chcemy odwrócić w sposób rekurencyjny tablicę liczb całkowitych. Zaproponuj algorytm z użyciem
-        rekurencji, który wykona to zadaniepackage algorytmy.homework;
-*/
+        rekurencji, który wykona to zadanie
+ */
+package algorytmy.homework;
 
 public class ArrayReverseByRecursion {
     private static int[] tab = new int[]{1, 2, 3, 4, 5};
