@@ -11,14 +11,16 @@ public class PalindromeCheckByRecursion {
         if (count == s.length() / 2) {
             return "yes";
         }
-        if (s.charAt(count) == s.charAt(s.length() - count - 1)) {
+        if (s.charAt(0) == s.charAt(s.length() - 1)) {
             count++;
-            return palindrome(s.substring(count, s.length() - count - 1));
+            return palindrome(s.substring(1, s.length() - 1));
         }
         return "no";
     }
 
     public static void main(String[] args) {
+        System.out.println(palindrome("kayak"));
+        System.out.println(palindrome("test"));
         System.out.println(palindrome("anna"));
     }
 }
