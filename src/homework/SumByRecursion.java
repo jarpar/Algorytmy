@@ -2,7 +2,7 @@
 6. Napisz program rekurencyjny obliczający sumę kolejnych liczb naturalnych
  */
 
-package algorytmy.homework;
+package homework;
 
 public class SumByRecursion {
     private static int sum;

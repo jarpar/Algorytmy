@@ -2,7 +2,7 @@
     7. Napisz program rekurencyjny sprawdzający, czy słowo jest palindromem
  */
 
-package algorytmy.homework;
+package homework;
 
 public class PalindromeCheckByRecursion {
 

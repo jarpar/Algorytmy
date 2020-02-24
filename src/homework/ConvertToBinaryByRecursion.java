@@ -10,7 +10,7 @@ Należy wykorzystać algorytm dzielenia przez podstawę systemu
             1 : 2 = 0 + 1
 */
 
-package algorytmy.homework;
+package homework;
 
 import java.util.ArrayList;
 import java.util.Collections;

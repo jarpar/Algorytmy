@@ -3,7 +3,7 @@
         Napisz funkcję potęgowania z użyciem rekurencji
 */
 
-package algorytmy.homework;
+package homework;
 
 public class PowerByRecursion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package algorytmy.homework;
+package homework;
 /*Zadania rekurencja:
 
     1. ArrayReverseByRecursion

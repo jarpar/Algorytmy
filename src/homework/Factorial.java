@@ -1,7 +1,7 @@
 /* 5. Napisz program obliczający silnię bez użycia rekurencji
  */
 
-package algorytmy.homework;
+package homework;
 
 public class Factorial {
     private static int factorial(int n) {

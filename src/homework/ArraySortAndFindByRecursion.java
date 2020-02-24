@@ -10,7 +10,7 @@
         Zadanie polega na napisaniu rekurencyjnej funkcji realizującej powyższy algorytm
  */
 
-package algorytmy.homework;
+package homework;
 
 import java.util.Arrays;
 
