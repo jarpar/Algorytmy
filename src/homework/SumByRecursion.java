@@ -18,9 +18,9 @@ public class SumByRecursion {
 
     public static void main(String[] args) {
         System.out.println(add(0, 5));
-
     }
 }
+
 /*
 /usr/lib/jvm/default-java/bin/java
 15
