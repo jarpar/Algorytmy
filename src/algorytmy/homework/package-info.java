@@ -32,7 +32,8 @@ package algorytmy.homework;
     5. Factorial
     Napisz program obliczający silnię bez użycia rekurencji
 
-    6. Napisz program rekurencyjny obliczający sumę kolejnych liczb naturalnych
+    6. SumByRecursion
+    Napisz program rekurencyjny obliczający sumę kolejnych liczb naturalnych
 
 
     7. Napisz program rekurencyjny sprawdzający, czy słowo jest palindromem
