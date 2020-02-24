@@ -21,3 +21,9 @@ public class SumByRecursion {
 
     }
 }
+/*
+/usr/lib/jvm/default-java/bin/java
+15
+
+Process finished with exit code 0
+ */
