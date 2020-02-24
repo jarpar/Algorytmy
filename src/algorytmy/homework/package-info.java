@@ -36,7 +36,8 @@ package algorytmy.homework;
     Napisz program rekurencyjny obliczający sumę kolejnych liczb naturalnych
 
 
-    7. Napisz program rekurencyjny sprawdzający, czy słowo jest palindromem
+    7. PalindromeCheckByRecursion
+    Napisz program rekurencyjny sprawdzający, czy słowo jest palindromem
 
     8. Napisz program sumujące ze sobą dwie tablice o tej samej długości
 
