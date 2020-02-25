@@ -42,6 +42,7 @@ package homework;
     8. ArraysAdd
     Napisz program sumujące ze sobą dwie tablice o tej samej długości
 
-    9. Napisz program realizujący wieże Hanoi
+    9. Hanoi
+    Napisz program realizujący wieże Hanoi
 
 */
