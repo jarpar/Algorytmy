@@ -39,7 +39,8 @@ package homework;
     7. PalindromeCheckByRecursion
     Napisz program rekurencyjny sprawdzający, czy słowo jest palindromem
 
-    8. Napisz program sumujące ze sobą dwie tablice o tej samej długości
+    8. ArraysAdd
+    Napisz program sumujące ze sobą dwie tablice o tej samej długości
 
     9. Napisz program realizujący wieże Hanoi
 
