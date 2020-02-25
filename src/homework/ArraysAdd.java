@@ -18,3 +18,11 @@ public class ArraysAdd {
         System.out.println(Arrays.toString(add(array1, array2)));
     }
 }
+
+/*
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+[10, 10, 10, 10, 10]
+
+Process finished with exit code 0
+
+ */
