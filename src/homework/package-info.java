@@ -42,7 +42,7 @@ package homework;
     8. ArraysAdd
     Napisz program sumujące ze sobą dwie tablice o tej samej długości
 
-    9. Hanoi
+    9. HanoiByRecursive
     Napisz program realizujący wieże Hanoi
 
 */
