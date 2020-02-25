@@ -8,5 +8,6 @@ public class HanoiByRecursive {
         }
         move(n - 1, start, middle, end);
         System.out.println("Element " + n + " from " + start + " to " + middle);
+        move(n - 1, middle, start, end);
     }
 }
