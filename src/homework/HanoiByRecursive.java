@@ -6,8 +6,8 @@ public class HanoiByRecursive {
             System.out.println("Element 1 from " + start + " to " + end);
             return;
         }
-        move(n - 1, start, middle, end);
-        System.out.println("Element " + n + " from " + start + " to " + middle);
+        move(n - 1, start, end, middle);
+        System.out.println("Element " + n + " from " + start + " to " + end);
         move(n - 1, middle, start, end);
     }
 
