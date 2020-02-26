@@ -1,4 +1,9 @@
+/*
+    8. Napisz program sumujące ze sobą dwie tablice o tej samej długości
+ */
+
 package homework;
+
 
 import java.util.Arrays;
 

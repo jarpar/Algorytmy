@@ -2,8 +2,8 @@ package homework;
 /*Zadania rekurencja:
 
     1. ArrayReverseByRecursion
-    Załóżmy, że chcemy odwrócić w sposób rekurencyjny tablicę liczb całkowitych. Zaproponuj algorytm z użyciem
-    rekurencji, który wykona to zadanie
+    Załóżmy, że chcemy odwrócić w sposób rekurencyjny tablicę liczb całkowitych.
+    Zaproponuj algorytm z użyciem rekurencji, który wykona to zadanie
 
     2. ArraySortAndFindByRecursion
     Powróćmy do problemu poszukiwania pewnej zadanej liczby x w tablicy, tym razem jednak posortowanej od wartości
