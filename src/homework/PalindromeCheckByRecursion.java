@@ -7,14 +7,14 @@ package homework;
 public class PalindromeCheckByRecursion {
 
     private static String palindrome(String s) {
-        if (s.length() ==0) {
+        if (s.length() == 0) {
             return "no";
         }
-        if (s.length() <=1) {
+        if (s.length() <= 1) {
             return "yes";
         }
         if (s.charAt(0) == s.charAt(s.length() - 1)) {
-            return palindrome(s.substring(1, s.length() - 1));
+            return palindrome(s.substring(0, s.length() - 1));
         }
         return "no";
     }
