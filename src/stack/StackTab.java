@@ -55,6 +55,15 @@ public class StackTab {
             tempSize++;
         return tempSize;
     }
+
+    public void print(int start, int end) throws Exception {
+        if (start >= stack.length || end >= stack.length) {
+            throw new Exception("out of stack");
+        }
+        for (int i = start; i <= end; i++) {
+            System.out.print(stack[i] + " ");
+        }
+    }
 }
 
 class test {
@@ -65,6 +74,8 @@ class test {
         stackTab.push(3);
         stackTab.push(4);
         stackTab.push(5);
+        stackTab.print(2, 4);
+        System.out.println();
         System.out.println(stackTab.peek());
         System.out.println(stackTab.pop());
         System.out.println(stackTab.peek());
