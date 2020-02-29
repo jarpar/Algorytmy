@@ -9,19 +9,25 @@ public class StackTab {
         stack = new int[size];
     }
 
-    public int pop() {//zwraca i usuwa
+    public int pop() throws Exception {//zwraca i usuwa
+        if (index < 0) {
+            throw new Exception("can't pop previous value");
+        }
         int temp;
         for (int i = 0; i < stack.length; i++) {
             if (i != index) {
                 temp = stack[i];
-
+                stack[i] = temp;
             }
         }
         index--;
         return stack[index];
     }
 
-    public int peek() {//tylko zwraca
+    public int peek() throws Exception {//tylko zwraca
+        if (index < 1) {
+            throw new Exception("can't peek previous value");
+        }
         return stack[index - 1];
     }
 
@@ -63,6 +69,14 @@ class test {
         System.out.println(stackTab.pop());
         System.out.println(stackTab.peek());
         stackTab.push(6);
+        System.out.println(stackTab.peek());
+        System.out.println(stackTab.pop());
+        System.out.println(stackTab.peek());
+        System.out.println(stackTab.pop());
+        System.out.println(stackTab.peek());
+        System.out.println(stackTab.pop());
+        System.out.println(stackTab.peek());
+        System.out.println(stackTab.pop());
         System.out.println(stackTab.peek());
         System.out.println(stackTab.pop());
         System.out.println(stackTab.peek());
