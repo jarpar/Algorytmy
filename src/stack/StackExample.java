@@ -10,7 +10,11 @@ public class StackExample {
         System.out.println(stack);
         stack.push(2);
         System.out.println(stack);
+        stack.push(3);
+        System.out.println(stack);
         System.out.println(stack.pop());
+        System.out.println(stack);
+        System.out.println(stack.peek());
         System.out.println(stack);
     }
 }
