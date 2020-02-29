@@ -34,16 +34,18 @@ public class PalindromeCheckByRecursion {
     }
 }
 /*
-/usr/lib/jvm/default-java/bin/java
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java
 yes
 no
 yes
 yes
 yes
 yes
+yes
+yes
+yes
+yes
 no
-yes
-yes
 
 Process finished with exit code 0
  */
